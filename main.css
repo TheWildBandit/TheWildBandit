@@ -1,0 +1,123 @@
+body {
+    /* background-image: url("CN\ long\ logo.png"); */
+    background: linear-gradient(rgb(0, 255, 0), rgb(153, 0, 255));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+li {
+    float: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+}
+.header {
+    height: 30px;
+    padding: 0;
+    background: #e1e1e1;
+}
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd00;
+}
+b {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd00;
+}
+a:visited {
+    text-decoration: none;
+}
+h1 {
+    color: black;
+    font-size: 1.5em;
+    text-align: left;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1.5em;
+}
+h5 {
+    font-size: 1.5em;
+}
+.navigation {
+    box-sizing: border-box;
+    border-color: black;
+    color:rgb(0, 0, 0);
+    font-family: 'Monsteratt Alternatives', sans-serif;
+    
+}
+.button:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.button {
+   transition-duration: 0.4s;
+   border-style: inset; 
+   box-sizing: border-box;
+   width: 200px;
+   height: 35px;
+   border-color: black;
+   background-color: rgb(153, 0, 255);
+   color:rgb(255, 255, 255);
+   border-width: 2.5px;
+   padding: 2px;
+   margin: 3px;
+   font-family: 'Monsteratt Alternatives', sans-serif;
+}
+.logo {
+    transition-duration: 0.4s;
+    box-sizing: content-box;
+    width: 60;
+    height: 60px;
+    border-color: black;
+    background-color:rgba(210, 105, 30, 0);
+    color: rgba(210, 105, 30, 0);
+    border-width: 0px;
+    padding: 0px;
+    margin-right: 10px;
+    font-family: 'Monsteratt Alternatives', sans-serif;
+}
+p{
+    text-align: justify;
+    font-family: 'Monsteratt Alternatives', sans-serif;
+}
+#patrick{
+    color:darkgreen;
+    background-color: aquamarine;
+    font-family: 'Monsteratt Alternatives', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+.container1 {
+    display: flex;
+    min-height: 200vh;
+    flex-direction: column;
+    margin: 0;
+    align-items: flex-end;
+}
+
+.box {
+    color: white;
+    font-size: 20px;
+    font-family: 'Monsteratt Alternatives', sans-serif;
+    text-align: center;
+    padding: 15px;
+    width: 1855px;
+    margin: 0;
+}
+    .box1 {background-color: #00ff222d;}
