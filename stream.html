@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>About</title>
+</head>
+<body>
+    <div class="navigation">
+        <!-- Navigation Menu -->
+        <a href="mysite.html" class=><img src="images\icononly_transparent_nobuffer.png"
+            width="3%"></a>
+        <a href="about.html" class="navbutton">About</a>
+        <a href="contact.html"class="navbutton">Contact</a>
+        <a href="stream.html"class="navbutton">My Streams</a>
+        <a href="https://the-bandit-army.creator-spring.com/" target="_blank" class="navbutton">My Merch</a>
+
+</body>
+    <h1>Here is a Live feed of my streams</h1>
+<body>
+        <!-- Add a placeholder for the Twitch embed -->
+        <div id="twitch-embed"></div>
+    
+        <!-- Load the Twitch embed script -->
+        <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    
+        <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element. -->
+        <script type="text/javascript">
+          var embed = new Twitch.Embed("twitch-embed", {
+            width: 854,
+            height: 480,
+            channel: "thewildbandit",
+            layout: "video",
+            autoplay: false,
+            // Only needed if this page is going to be embedded on other websites
+          //  parent: ["embed.example.com", "othersite.example.com"]
+          });
+    
+          embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
+            var player = embed.getPlayer();
+            player.play();
+          });
+        </script>
+      </body>
+</html>
