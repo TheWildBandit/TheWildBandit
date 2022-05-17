@@ -63,7 +63,8 @@ h5 {
     background-color: #4CAF50; /* Green */
     color: white;
 }
-.button {
+.button {   
+   text-align: center;
    transition-duration: 0.4s;
    border-style: inset; 
    box-sizing: border-box;
@@ -75,7 +76,7 @@ h5 {
    border-width: 2.5px;
    padding: 2px;
    margin: 3px;
-   text-align: center;
+
    font-family: 'Monsteratt Alternatives', sans-serif;
 }
 .logo {
