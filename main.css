@@ -73,8 +73,8 @@ h5 {
     
 }
 .button:hover{
-    background-color: #4CAF50; /* Green */
-    color: white;
+    background-color: #ffffff; /* Green */
+    color: black;
 }
 .button {
    transition-duration: 0.4s;
