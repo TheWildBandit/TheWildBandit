@@ -39,18 +39,31 @@ h1 {
     color: black;
     font-size: 1.5em;
     text-align: left;
+    text-decoration: underline;
 }
 h2 {
+    color: black;
     font-size: 1.5em;
+    text-align: left;
+    text-decoration: underline;
 }
 h3 {
+    color: black;
     font-size: 1.5em;
+    text-align: left;
+    text-decoration: underline;
 }
 h4 {
+    color: black;
     font-size: 1.5em;
+    text-align: left;
+    text-decoration: underline;
 }
 h5 {
+    color: black;
     font-size: 1.5em;
+    text-align: left;
+    text-decoration: underline;
 }
 .navigation {
     box-sizing: border-box;
@@ -63,8 +76,7 @@ h5 {
     background-color: #4CAF50; /* Green */
     color: white;
 }
-.button {   
-   text-align: center;
+.button {
    transition-duration: 0.4s;
    border-style: inset; 
    box-sizing: border-box;
@@ -76,7 +88,7 @@ h5 {
    border-width: 2.5px;
    padding: 2px;
    margin: 3px;
-
+   text-align: center;
    font-family: 'Monsteratt Alternatives', sans-serif;
 }
 .logo {
@@ -95,6 +107,7 @@ h5 {
 p{
     text-align: justify;
     font-family: 'Monsteratt Alternatives', sans-serif;
+    font-size: 0.7em;
 }
 #patrick{
     color:darkgreen;
@@ -122,4 +135,17 @@ p{
     width: 1855px;
     margin: 0;
 }
-    .box1 {background-color: #00ff222d;}
+.box3 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Monsteratt Alternatives', sans-serif;
+    text-align: left;
+    padding: 20px;
+    width: 1860px;
+    margin: 0;
+}
+.box1 {background-color: #00ff222d;
+    }
+.box2 {background-color: #2600ff;
+    margin-bottom: 4px;
+    }
