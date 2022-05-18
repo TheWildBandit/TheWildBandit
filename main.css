@@ -149,3 +149,6 @@ p{
 .box2 {background-color: #2600ff;
     margin-bottom: 4px;
     }
+.center {
+        text-align: center;
+      }
