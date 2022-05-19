@@ -93,7 +93,7 @@ h5 {
    text-align: center;
    font-family: 'Monsteratt Alternatives', sans-serif;
 }
-.logo {
+#logo {
     transition-duration: 0.4s;
     box-sizing: content-box;
     width: 60;
