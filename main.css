@@ -8,24 +8,26 @@ body {
     font-size: 20px;
 }
 li {
-    float: left;
+        justify-content: center;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    float: left;
 }
 .header {
     height: 30px;
     padding: 0;
     background: #e1e1e1;
+    text-align: center;
 }
 a {
     display: block;
     padding: 8px;
     background-color: #dddddd00;
+    text-align: center;
+    text-decoration: none;
 }
 b {
     display: block;
@@ -38,31 +40,31 @@ a:visited {
 h1 {
     color: black;
     font-size: 1.5em;
-    text-align: left;
+    text-align: center;
     text-decoration: underline;
 }
 h2 {
     color: black;
     font-size: 1.5em;
-    text-align: left;
+    text-align: center;
     text-decoration: underline;
 }
 h3 {
     color: black;
     font-size: 1.5em;
-    text-align: left;
+    text-align: center;
     text-decoration: underline;
 }
 h4 {
     color: black;
     font-size: 1.5em;
-    text-align: left;
+    text-align: center;
     text-decoration: underline;
 }
 h5 {
     color: black;
     font-size: 1.5em;
-    text-align: left;
+    text-align: center;
     text-decoration: underline;
 }
 .navigation {
@@ -70,11 +72,11 @@ h5 {
     border-color: black;
     color:rgb(0, 0, 0);
     font-family: 'Monsteratt Alternatives', sans-serif;
-    
+    justify-content: center;
 }
 .button:hover{
     background-color: #ffffff; /* Green */
-    color: black;
+    color: rgb(0, 0, 0);
 }
 .button {
    transition-duration: 0.4s;
@@ -102,10 +104,11 @@ h5 {
     border-width: 0px;
     padding: 0px;
     margin-right: 10px;
+    margin-left: 10px;
     font-family: 'Monsteratt Alternatives', sans-serif;
 }
 p{
-    text-align: justify;
+    text-align: center;
     font-family: 'Monsteratt Alternatives', sans-serif;
     font-size: 0.7em;
 }
@@ -117,6 +120,7 @@ p{
 .container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .container1 {
     display: flex;
@@ -151,4 +155,16 @@ p{
     }
 .center {
         text-align: center;
+        align-items: center;
+      }
+footer {
+        position:fixed;
+        bottom: 0;
+        font-family: 'Monsteratt Alternatives', sans-serif;
+        color:#ffffff;
+        background:rgba(0, 0, 0, 0.5);
+        height: 2em;
+        text-align: center;
+        right: 0;
+        left: 0;;
       }
