@@ -173,8 +173,9 @@ footer {
         font-family: 'Monsteratt Alternatives', sans-serif;
         color:#ffffff;
         background:rgba(0, 0, 0, 0.5);
-        height: 2em;
+        height: 1.5em;
         text-align: center;
         right: 0;
         left: 0;;
+        margin-top: 10px;
       }
